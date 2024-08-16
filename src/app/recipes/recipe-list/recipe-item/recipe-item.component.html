@@ -1,0 +1,11 @@
+<a
+  class="list-group-item bg-light d-flex justify-content-between my-1"
+  [routerLink]="[index]"
+  [routerLinkActive]="'active'"
+>
+  <div>
+    <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
+    <p class="list-group-item-text">{{ recipe.description }}</p>
+  </div>
+  <span><img [src]="recipe.imagePath" alt="" class="image-responsive"></span>
+</a>

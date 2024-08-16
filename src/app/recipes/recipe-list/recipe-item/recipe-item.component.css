@@ -1,0 +1,14 @@
+a{
+  border: solid 1px lightgray;
+  padding: 10px;
+  cursor: pointer;
+}
+a:hover{
+  background-color: #f6f6f6 !important;
+}
+
+img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+.dropdown-menu.show {
+  position: absolute;
+  inset: 0 auto auto 0;
+  margin: 0;
+  transform: translate(0, 40px);
+  padding: 0;
+}
+.dropdown-menu.show li {
+  padding: 5px 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.dropdown-menu.show a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer ;
+}
+
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+  border-color: red;
+}
